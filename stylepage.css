@@ -308,33 +308,12 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 .home__description {
-  background: linear-gradient(
-    45deg,
-    hsl(0, 31%, 24%),
-    hsl(182, 43%, 58%),
-    hsl(0, 60%, 50%),
-    hsl(0, 31%, 24%)
-  );
-  background-size: 300% 300%;
-  animation: gradient-animation 10s ease infinite;
   padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-radius: 6px;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .home__scroll {
@@ -414,11 +393,6 @@ img {
   flex-wrap: wrap;
 }
 .about__descriptions {
-  background-image: linear-gradient(
-    45deg,
-    var(--first-color-alt),
-    var(--back-color)
-  );
   padding: 30px;
   border-radius: 4px;
   margin: 0 0px 15px;
