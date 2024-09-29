@@ -646,7 +646,7 @@ img {
 }
 
 .learn-more, .linkedin-link {
-    display: inline-block;
+    display: block;
     margin-top: 10px;
     text-decoration: none;
     color: #0073e6;
