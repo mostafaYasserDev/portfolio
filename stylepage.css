@@ -625,7 +625,8 @@ img {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: center;  
+  box-shadow: 4px 2px 20px 0 black;
 }
 
 .hero-image {
@@ -661,9 +662,10 @@ img {
 }
 
 .section-title {
-    text-align: center;
     font-size: 2rem;
-    margin-bottom: 20px;
+    max-width: 500px;
+  text-align: center;
+  margin: 0 auto 20px;
 }
 
 .intro {
