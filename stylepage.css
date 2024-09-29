@@ -709,6 +709,57 @@ ul li:last-child {
 .academic-resources, .multimedia-resources, .tools, .books, .learning-opportunities {
     margin-bottom: 40px;
 }
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    .resources {
+        background-color: #2c3e50; /* Dark background */
+        color: #ecf0f1; /* Light text */
+    }
+
+    .section-title {
+        color: #ecf0f1; /* Light color for section titles */
+    }
+
+    .intro {
+        color: #bdc3c7; /* Slightly lighter text for readability */
+    }
+
+    h3 {
+        color: #16a085; /* Keep the same accent color */
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        padding: 10px 0;
+        border-bottom: 1px solid #34495e; /* Darker border */
+    }
+
+    ul li:last-child {
+        border-bottom: none;
+    }
+
+    .resource-link {
+        display: inline-block;
+        color: #1abc9c; /* Use a bright color for links */
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .resource-link:hover {
+        text-decoration: underline;
+        color: #1abc9c; /* Slight hover effect */
+    }
+
+    .academic-resources, .multimedia-resources, .tools, .books, .learning-opportunities {
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width: 768px) {
     .tech-heroes {
         grid-template-columns: 1fr;
