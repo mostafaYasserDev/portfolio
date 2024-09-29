@@ -652,7 +652,63 @@ img {
     color: #0073e6;
   border-radius: 6px;
 }
+.resources {
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.section-title {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.intro {
+    color: #34495e;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #16a085;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.resource-link {
+    display: inline-block;
+    color: #2980b9;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+}
+
+.academic-resources, .multimedia-resources, .tools, .books, .learning-opportunities {
+    margin-bottom: 40px;
+}
 @media (max-width: 768px) {
     .tech-heroes {
         grid-template-columns: 1fr;
