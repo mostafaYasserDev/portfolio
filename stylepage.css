@@ -650,8 +650,6 @@ img {
     margin-top: 10px;
     text-decoration: none;
     color: #0073e6;
-  padding: 15px 30px;
-  width: calc(50% - 120px);
   border-radius: 6px;
 }
 
