@@ -613,8 +613,9 @@ img {
   }
 }
 .tech-heroes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
     gap: 20px;
     padding: 20px;  margin-top: 50px;
   margin-bottom: 100px;
@@ -626,6 +627,7 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center; 
+   width: calc(100% / 3);
 }
 
 .hero-image {
@@ -678,9 +680,7 @@ h3 {
     font-size: 1.5rem;
     margin-top: 30px;
 }
-.resources h3 {
-  text-align: center;
-}
+
 
 ul {
     list-style: none;
