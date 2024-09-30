@@ -713,7 +713,7 @@ ul li:last-child {
 }
 
 @media (max-width: 768px) {
-    .tech-heroes {
-        grid-template-columns: 1fr;
-    }
+  .hero-card {
+    width: 100%;
+  }
 }
