@@ -4,55 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About - Amar</title>
+
+    <!-- Import Line Icons from IconScout -->
     <link
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
 
     <link rel="stylesheet" href="stylepage.css" />
   </head>
   <body>
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Amar </a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">
-                <i class="uil uil-estate nav__icon"></i> Home
+    <!-- Site header -->
+    <header class="site-header" id="site-header">
+      <nav class="site-header__navigation container">
+        <a href="#" class="site-header__logo">Amar</a>
+        <div class="site-header__menu" id="site-header__navigation-menu">
+          <ul class="site-header__menu-list grid">
+            <li class="site-header__menu-item">
+              <a href="index.html" class="site-header__menu-link">
+                <i class="uil uil-estate site-header__menu-icon"></i> Home
               </a>
             </li>
-            <li class="nav__item">
-              <a href="about.html" class="nav__link active-link">
-                <i class="uil uil-user nav__icon"></i> About
+            <li class="site-header__menu-item">
+              <a
+                href="about.html"
+                class="site-header__menu-link site-header__menu-link--active"
+              >
+                <i class="uil uil-user site-header__menu-icon"></i> About
               </a>
             </li>
-            <li class="nav__item" style="min-width: 70px">
-              <a href="tech-heros.html" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> tech heros
+            <li class="site-header__menu-item">
+              <a href="tech-heros.html" class="site-header__menu-link">
+                <i class="uil uil-scenery site-header__menu-icon"></i> Tech
+                Heroes
               </a>
             </li>
-            <li class="nav__item">
-              <a href="bias_resources.html" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> resources
+            <li class="site-header__menu-item">
+              <a href="bias_resources.html" class="site-header__menu-link">
+                <i class="uil uil-user site-header__menu-icon"></i> Resources
               </a>
-            </li>
-            <li class="nav__item">
-              <i class="uil uil-moon change-theme" id="theme-button"></i>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <!--==================== ABOUT ====================-->
-    <section class="about section" id="about">
-      <h2 class="section__title">About Me</h2>
-      <span class="section__subtitle">My introduction</span>
 
-      <div class="about__container container grid">
-        <div class="about__data">
-          <div class="about__descriptions">
-            <h2>Personally</h2>
+    <!-- About section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <p class="section__subtitle">My introduction</p>
+
+        <div class="about__content grid">
+          <div class="about__description-block">
+            <h3 class="about__description-title">Personally</h3>
             <p class="about__description">
               I’ve recently launched this website as a space to share more about
               myself, blending my personal interests with my professional
@@ -64,8 +69,9 @@
               healthy balance between work and play.
             </p>
           </div>
-          <div class="about__descriptions">
-            <h2>Professionally</h2>
+
+          <div class="about__description-block">
+            <h3 class="about__description-title">Professionally</h3>
             <p class="about__description">
               I’m Amar Algogandi, a UX designer and researcher dedicated to
               creating user-centered experiences that are intuitive and
@@ -81,6 +87,5 @@
         </div>
       </div>
     </section>
-    <script src="mood.js"></script>
   </body>
 </html>

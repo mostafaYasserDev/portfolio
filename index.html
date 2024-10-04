@@ -4,93 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Amar</title>
+
+    <!-- Import Line Icons from IconScout -->
     <link
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
 
     <link rel="stylesheet" href="stylepage.css" />
   </head>
   <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Amar </a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i> Home
+    <!-- Site header -->
+    <header class="site-header" id="site-header">
+      <nav class="site-header__navigation container">
+        <a href="#" class="site-header__logo">Amar</a>
+        <div class="site-header__menu" id="site-header__navigation-menu">
+          <ul class="site-header__menu-list grid">
+            <li class="site-header__menu-item">
+              <a
+                href="index.html"
+                class="site-header__menu-link site-header__menu-link--active"
+              >
+                <i class="uil uil-estate site-header__menu-icon"></i> Home
               </a>
             </li>
-            <li class="nav__item">
-              <a href="about.html" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
+            <li class="site-header__menu-item">
+              <a href="about.html" class="site-header__menu-link">
+                <i class="uil uil-user site-header__menu-icon"></i> About
               </a>
             </li>
-            <li class="nav__item" style="min-width: 70px">
-              <a href="tech-heros.html" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> tech heros
+            <li class="site-header__menu-item" style="min-width: 70px">
+              <a href="tech-heros.html" class="site-header__menu-link">
+                <i class="uil uil-scenery site-header__menu-icon"></i> tech
+                heros
               </a>
             </li>
-            <li class="nav__item">
-              <a href="bias_resources.html" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> resources
+            <li class="site-header__menu-item">
+              <a href="bias_resources.html" class="site-header__menu-link">
+                <i class="uil uil-user site-header__menu-icon"></i> resources
               </a>
-            </li>
-            <li class="nav__item">
-              <i class="uil uil-moon change-theme" id="theme-button"></i>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <!--==================== HOME ====================-->
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__data">
-          <h1 class="home__title">Amar Algogandi</h1>
-          
-          <p class="home__description">
-            "Every step you take brings you closer to your goals. Keep moving forward."
 
+    <!-- Hero section -->
+    <section class="hero section" id="home">
+      <div class="hero__container container grid">
+        <div class="hero__data">
+          <h1 class="hero__title">Amar Algogandi</h1>
+
+          <p class="hero__description">
+            "Every step you take brings you closer to your goals. Keep moving
+            forward."
           </p>
         </div>
-        <div class="home__content grid">
-          <div class="home__img"></div>
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        <div class="hero__content grid">
+          <div class="hero__image"></div>
+          <svg
+            class="hero__blob"
+            viewBox="0 0 200 187"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
                     0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="12"
-                    y="18"
-                    href="img/home-img.png"
-                  />
-                </g>
-              </svg>
-            </div>
+              />
+              <image
+                class="hero__blob-image"
+                x="12"
+                y="18"
+                href="img/home-img.png"
+              />
+            </g>
+          </svg>
         </div>
       </div>
     </section>
-    <script  src="mood.js"></script>
   </body>
 </html>

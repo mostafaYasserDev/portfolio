@@ -3,64 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tech heros - Amar</title>
+    <title>Tech Heroes - Amar</title>
+
+    <!-- Import Line Icons from IconScout -->
     <link
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
 
     <link rel="stylesheet" href="stylepage.css" />
   </head>
   <body>
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Amar </a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="index.html" class="nav__link">
-                <i class="uil uil-estate nav__icon"></i> Home
+    <!-- Site header -->
+    <header class="site-header" id="site-header">
+      <nav class="site-header__navigation container">
+        <a href="#" class="site-header__logo">Amar</a>
+        <div class="site-header__menu" id="site-header__navigation-menu">
+          <ul class="site-header__menu-list grid">
+            <li class="site-header__menu-item">
+              <a href="index.html" class="site-header__menu-link">
+                <i class="uil uil-estate site-header__menu-icon"></i> Home
               </a>
             </li>
-            <li class="nav__item">
-              <a href="about.html" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
+            <li class="site-header__menu-item">
+              <a href="about.html" class="site-header__menu-link">
+                <i class="uil uil-user site-header__menu-icon"></i> About
               </a>
             </li>
-            <li class="nav__item" style="min-width: 70px">
-              <a href="tech-heros.html" class="nav__link active-link">
-                <i class="uil uil-scenery nav__icon"></i> tech heros
+            <li class="site-header__menu-item">
+              <a
+                href="tech-heros.html"
+                class="site-header__menu-link site-header__menu-link--active"
+              >
+                <i class="uil uil-scenery site-header__menu-icon"></i> Tech
+                Heroes
               </a>
             </li>
-            <li class="nav__item">
-              <a href="bias_resources.html" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> resources
+            <li class="site-header__menu-item">
+              <a href="bias_resources.html" class="site-header__menu-link">
+                <i class="uil uil-user site-header__menu-icon"></i> Resources
               </a>
-            </li>
-            <li class="nav__item">
-              <i class="uil uil-moon change-theme" id="theme-button"></i>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <section class="tech-heroes">
-    <div class="hero-card">
-        <img src="img/Dishanta.png" alt="Dishanta Kpatrick" class="hero-image">
-        <h3 class="hero-name">Dishanta Kpatrick</h3>
-        <p class="hero-bio">
-            Dishanta Kpatrick's journey into tech is a testament to the power of self-learning, resilience, and community support. 
-            From teaching herself to code while working various jobs to completing a full-stack bootcamp and eventually landing a role 
-            as a Full Stack Engineer at Intuit Mailchimp, Dishanta’s story highlights the importance of persistence in overcoming barriers. 
-            Her experience underscores the value of non-traditional paths, apprenticeship opportunities, and mentorship in tech, 
-            offering a powerful message to aspiring engineers: with passion and determination, success in tech is attainable, 
-            no matter where you start.
-        </p>
-        <a href="https://peopleofcolorintech.com/articles/interview-dishanta-kpatricks-unique-path-from-self-taught-coder-to-front-end-engineer-at-intuit-mailchimp/" class="learn-more">to learn more</a>
-        <a href="https://www.linkedin.com/search/results/all/?keywords=dishanta%20kpatrick" class="linkedin-link">LinkedIn</a>
-    </div>
-    <!-- Repeat the hero card block for other heroes -->
+
+    <!-- Tech heroes section -->
+    <section class="tech-heroes section" id="tech-heroes">
+      <div class="container">
+        <h2 class="section__title">Tech Heroes</h2>
+        <div class="tech-heroes__grid grid">
+          <div class="tech-heroes__card">
+            <img
+              src="img/Dishanta.png"
+              alt="Dishanta Kpatrick"
+              class="tech-heroes__image"
+            />
+            <h3 class="tech-heroes__name">Dishanta Kpatrick</h3>
+            <p class="tech-heroes__bio">
+              Dishanta Kpatrick's journey into tech is a testament to the power
+              of self-learning, resilience, and community support. From teaching
+              herself to code while working various jobs to completing a
+              full-stack bootcamp and eventually landing a role as a Full Stack
+              Engineer at Intuit Mailchimp, Dishanta’s story highlights the
+              importance of persistence in overcoming barriers. Her experience
+              underscores the value of non-traditional paths, apprenticeship
+              opportunities, and mentorship in tech, offering a powerful message
+              to aspiring engineers: with passion and determination, success in
+              tech is attainable, no matter where you start.
+            </p>
+            <a
+              href="https://peopleofcolorintech.com/articles/interview-dishanta-kpatricks-unique-path-from-self-taught-coder-to-front-end-engineer-at-intuit-mailchimp/"
+              class="tech-heroes__link"
+              >Learn More</a
+            >
+            <a
+              href="https://www.linkedin.com/search/results/all/?keywords=dishanta%20kpatrick"
+              class="tech-heroes__link tech-heroes__link--linkedin"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
-    <script src="mood.js"></script>
   </body>
 </html>
