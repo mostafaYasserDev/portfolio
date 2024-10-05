@@ -149,7 +149,7 @@ img {
 }
 
 .hero__blob {
-  width: 360px;
+  width: 500px;
   fill: #fff;
 }
 
@@ -211,8 +211,8 @@ img {
 /*  About  section  styles  */
 .about__content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 0rem;
 }
 
 .about__member {
@@ -227,7 +227,7 @@ img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   margin: 0 auto 1rem;
 }
 
